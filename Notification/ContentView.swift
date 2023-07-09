@@ -44,7 +44,7 @@ struct ContentView: View {
                         
                         Spacer()
                         
-                        Text(data.time.toString())
+                        Text(data.time.toCertainFormatString(format: "a hh시 mm분"))
                     }
                 }
             }
