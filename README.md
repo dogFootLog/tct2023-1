@@ -1,4 +1,5 @@
 // 채팅 말풍선
+
 VStack(alignment: .trailing) {
     HStack {
         Spacer()
